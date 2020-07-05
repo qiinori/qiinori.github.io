@@ -1,0 +1,116 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+body {
+    margin:0;
+    color: black;
+    font-family: 'Anonymous Pro';
+    background-color: #ffcccc;
+    
+}
+.container {
+    color: white;
+    background-color: #ffe6ee;
+}
+.nav{
+    color: black;
+}
+
+.main-left,.main-right,.contact-left,.contact-right{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.main-left,.contact-left{
+    left:0;
+    background-color: pink;
+}
+.main-right,.contact-right{
+    right:0;
+    background-color:#ffb3b3 ;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 100vh;
+  height: 100vh;
+}
+
+
+/* nav */
+ul li {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin-right: 1em; 
+    font-size: 25px;
+    padding: 12px; 
+}
+ 
+li a {
+ color: #ff4d4d;
+ text-decoration: none;
+ float: right;
+}
+ 
+li a:hover {
+    color: #ffff4d;
+}
+li a.active {
+  color: white;
+}
+
+/* about page*/
+.about-page{
+    height: 100%;
+}
+.about{
+    padding: 20px;
+    width: 500;
+    border-style: outset;
+    border-radius: 5px;
+    border-color: crimson;
+}
+.about-left,{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-color: crimson;
+    left:0;
+}
+.about-right,{
+    right:0;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-color: crimson;
+}
+/* project page*/
+.project{
+    padding: 20px;
+    border-style: outset;
+    border-radius: 5px;
+    border-color: crimson;
+}
