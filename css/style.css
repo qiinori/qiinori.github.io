@@ -54,7 +54,6 @@ body {
 /* nav */
 ul li {
     display: inline;
-    float: left;
     list-style: none;
     margin-right: 1em; 
     font-size: 25px;
@@ -62,55 +61,64 @@ ul li {
 }
  
 li a {
- color: #ff4d4d;
- text-decoration: none;
- float: right;
+    color: #ff4d4d;
+    text-decoration: none;
 }
  
 li a:hover {
     color: #ffff4d;
 }
 li a.active {
-  color: white;
+    color: #ffff4d;
 }
 
 /* about page*/
 .about-page{
-    height: 100%;
+    padding: 20px;
+    color: black;
+    background-color: #ffe6ee;
+
 }
 .about{
     padding: 20px;
-    width: 500;
-    border-style: outset;
-    border-radius: 5px;
-    border-color: crimson;
 }
-.about-left,{
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
+.photo{
     padding-top: 20px;
-    border-color: crimson;
+    width: 75%;
+    height: 75%;
+}
+.about-left{
+    width: 40%;
+    position: absolute;
+    z-index: 1;
+    top:auto;
+    overflow-x: hidden;
+    padding: 20px;
     left:0;
 }
-.about-right,{
+.about-right{
     right:0;
-    height: 100%;
-    width: 50%;
-    position: fixed;
+    width: 60%;
+    position: absolute;
     z-index: 1;
-    top: 0;
     overflow-x: hidden;
-    padding-top: 20px;
-    border-color: crimson;
+    padding: 20px;
+    
 }
 /* project page*/
+.project-page{
+    padding: 20px;
+}
 .project{
     padding: 20px;
     border-style: outset;
     border-radius: 5px;
     border-color: crimson;
+}
+img.align-left{
+    float: left;
+    margin-right: 10px;
+}
+.clear{
+    clear: both;
 }
