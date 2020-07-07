@@ -239,6 +239,10 @@ pre{
   {
     left: 0px;
   }
+    home{
+        margin: 0;
+    }
+    
 }
 
 .dark {
