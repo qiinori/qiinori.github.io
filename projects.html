@@ -75,13 +75,51 @@
           <span class="link-text">Contact</span>
         </a>
       </li>
-      <li class="nav-item">
+
+        
+                <script>
+        function myFunction() {
+        var x = document.getElementById("lang");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+        }
+        </script>
+        <li onclick="myFunction()" class="nav-item lang-option">
         <a href="#" class="nav-link">
 <!--            translate image-->
         <img src = "image/translate.png" width="50px" height="50px">
-          <span class="link-text">Language</span>
-        </a>
+          <span  class="link-text">Language</span>
+          </a>
       </li>
+        
+        <div id = "lang">
+              <li class="nav-item " >
+        <a href="#" class="nav-link">
+<!--            translate image-->
+        <img src = "image/english.png" width="50px" height="50px">
+          <span class="link-text">English</span>
+          </a>
+      </li>
+              <li class="nav-item" >
+        <a href="#" class="nav-link">
+<!--            translate image-->
+        <img src = "image/french.png" width="50px" height="50px">
+          <span class="link-text">français</span>
+          </a>
+      </li>
+              <li class="nav-item" >
+        <a href="#" class="nav-link">
+<!--            translate image-->
+        <img src = "image/chinese.png" width="50px" height="50px">
+          <span class="link-text">中文</span>
+          </a>
+      </li>
+            </div>
+            
+            
       <li class="nav-item" id="themeButton">
         <a href="#" class="nav-link">
           <svg

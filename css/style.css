@@ -33,6 +33,18 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
+body.en :lang(fr) {
+  display: none;
+}
+body.fr :lang(en) {
+  display: none;
+}
+body.zh :lang(fr) {
+  display: none;
+}
+
+
+
 .greeting {
   margin-left: 5rem;
   padding: 1rem;
@@ -76,7 +88,7 @@ pre{
     font-size: 2vw;
     height: 100vh;
 }
-
+/*navbar*/
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
@@ -117,6 +129,11 @@ pre{
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
   color: var(--text-secondary);
+}
+
+
+#lang{
+    display: none;
 }
 
 .link-text {

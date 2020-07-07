@@ -70,14 +70,52 @@
           <span class="link-text">Contact</span>
         </a>
       </li>
-      <li class="nav-item">
+        
+        <script>
+        function myFunction() {
+        var x = document.getElementById("lang");
+        if (x.style.display === "none") {
+        x.style.display = "block";
+        } else {
+        x.style.display = "none";
+        }
+        }
+        </script>
+                      <li onclick="myFunction()" class="nav-item lang-option">
         <a href="#" class="nav-link">
 <!--            translate image-->
         <img src = "image/translate.png" width="50px" height="50px">
-          <span class="link-text">Language</span>
-        </a>
+          <span  class="link-text">Language</span>
+          </a>
       </li>
-        <li class="nav-item" id="themeButton">
+        
+        <div id = "lang">
+              <li class="nav-item " >
+        <a href="index.html" class="nav-link">
+<!--            translate image-->
+        <img src = "image/english.png" width="50px" height="50px">
+          <span class="link-text">English</span>
+          </a>
+      </li>
+              <li class="nav-item" >
+        <a href="index-fr.html" class="nav-link">
+<!--            translate image-->
+        <img src = "image/french.png" width="50px" height="50px">
+          <span class="link-text">français</span>
+          </a>
+      </li>
+              <li class="nav-item" >
+        <a href="index-zh.html" class="nav-link">
+<!--            translate image-->
+        <img src = "image/chinese.png" width="50px" height="50px">
+          <span class="link-text">中文</span>
+          </a>
+      </li>
+            
+            
+        </div>
+
+              <li class="nav-item" id="themeButton">
         <a href="#" class="nav-link">
           <svg
             class="theme-icon"
@@ -157,12 +195,15 @@
           <span class="link-text">Themify</span>
         </a>
       </li>
+        
     </ul>
   </nav>
 <!--nav-->
     
     <div class = "greeting">
-    <h1 >WELCOME</h1>
+    <h1 lang = "en">WELCOME</h1>
+<!--    <h1 lang = "fr">BIENVENUE</h1>-->
+<!--    <h1 lang = "zh">欢迎</h1>-->
   </div>
     <div class = "home-content">
         <img src="image/female_student_Girl_woman_person_backpack_bag.png" alt="student">
