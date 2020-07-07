@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 @import url(https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight);
-
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Grand+Hotel);
 :root {
   font-size: 16px;
-  font-family: 'Audiowide','Righteous','Zilla+Slab+Highlight';
+  font-family: 'Audiowide','Righteous','Zilla Slab Highlight','Gloria Hallelujah','Pattaya';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -54,19 +55,22 @@ body::-webkit-scrollbar-thumb {
   padding: 1rem;
     font:'Righteous';
     background-color:#ffcccc;
+    font-size: 1vw;
+    height: 100vh;
 }
 .projects{
          margin-left: 5rem;
-  padding: 1rem;
-    font:'Righteous';
+  padding: 1rem;;
 /*    background-color:#ffcccc; */
 }
 .contact{
          margin-left: 5rem;
   padding: 1rem;
-    font:'Righteous';
     background-color:#ffcccc; 
     text-align: center;
+    font-family:'Grand Hotel';
+    font-size: 2vw;
+    height: 100vh;
 }
 
 .navbar {
