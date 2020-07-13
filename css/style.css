@@ -82,7 +82,9 @@ pre{
     font-family:'Grand Hotel';
     font-size: 2vw;
     height: 100vh;
+    display: inline;
 }
+
 /*navbar*/
 .navbar {
   position: fixed;
