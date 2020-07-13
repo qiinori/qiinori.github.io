@@ -71,50 +71,6 @@
           <span class="link-text">Contact</span>
         </a>
       </li>
-        
-        <script>
-        function myFunction() {
-        var x = document.getElementById("lang");
-        if (x.style.display === "none") {
-        x.style.display = "block";
-        } else {
-        x.style.display = "none";
-        }
-        }
-        </script>
-                      <li onclick="myFunction()" class="nav-item lang-option">
-        <a href="#" class="nav-link">
-<!--            translate image-->
-        <img src = "image/translate.png" width="50px" height="50px">
-          <span  class="link-text">Language</span>
-          </a>
-      </li>
-        
-        <div id = "lang">
-              <li class="nav-item " >
-        <a href="index.html" class="nav-link">
-<!--            translate image-->
-        <img src = "image/english.png" width="50px" height="50px">
-          <span class="link-text">English</span>
-          </a>
-      </li>
-              <li class="nav-item" >
-        <a href="index-fr.html" class="nav-link">
-<!--            translate image-->
-        <img src = "image/french.png" width="50px" height="50px">
-          <span class="link-text">français</span>
-          </a>
-      </li>
-              <li class="nav-item" >
-        <a href="index-zh.html" class="nav-link">
-<!--            translate image-->
-        <img src = "image/chinese.png" width="50px" height="50px">
-          <span class="link-text">中文</span>
-          </a>
-      </li>
-            
-            
-        </div>
 
               <li class="nav-item" id="themeButton">
         <a href="#" class="nav-link">
@@ -202,7 +158,15 @@
 <!--nav-->
     <div class = "home">
     <div class = "greeting">
-    <h1 lang = "en">WELCOME</h1>
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <h1 >WELCOME</h1>
 <!--    <h1 lang = "fr">BIENVENUE</h1>-->
 <!--    <h1 lang = "zh">欢迎</h1>-->
   </div>
