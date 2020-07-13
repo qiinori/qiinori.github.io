@@ -33,14 +33,8 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
-body.en :lang(fr) {
-  display: none;
-}
-body.fr :lang(en) {
-  display: none;
-}
-body.zh :lang(fr) {
-  display: none;
+#google_translate_element{
+    float: right;
 }
 
 
