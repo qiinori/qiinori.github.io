@@ -35,6 +35,7 @@ body::-webkit-scrollbar-thumb {
 
 #google_translate_element{
     float: right;
+    display: inline;
 }
 
 
@@ -125,10 +126,6 @@ pre{
   color: var(--text-secondary);
 }
 
-
-#lang{
-    display: none;
-}
 
 .link-text {
   display: none;
