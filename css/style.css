@@ -71,12 +71,25 @@ pre{
     font-family:'Vibur';
 }
 .projects{
-         margin-left: 5rem;
-  padding: 1rem;;
-}
-.contact{
-         margin-left: 5rem;
+  margin-left: 5rem;
   padding: 1rem;
+  background-color:#ffcccc;
+}
+.projects h1{
+    text-align: center;
+}
+
+.projectspreview{
+    height: 60vh;
+    width: 20vw;
+    text-align: center;
+    display: block;
+}
+
+
+.contact{
+    margin-left: 5rem;
+    padding: 1rem;
     background-color:#ffcccc; 
     text-align: center;
     font-family:'Grand Hotel';
