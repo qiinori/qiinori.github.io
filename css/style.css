@@ -74,7 +74,7 @@ pre{
   margin-left: 5rem;
   padding: 1rem;
 }
-.projects h1{
+.projects.h1.bottom-line{
     text-align: center;
     border-bottom-style: dashed;
 }
