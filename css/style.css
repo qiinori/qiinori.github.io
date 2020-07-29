@@ -90,7 +90,6 @@ pre{
 .contact{
     margin-left: 5rem;
     padding: 1rem;
-    background-color:#ffcccc; 
     text-align: center;
     font-family:'Grand Hotel';
     font-size: 2vw;
@@ -286,4 +285,12 @@ pre{
 
 .solar #solarIcon {
   display: block;
+}
+
+h2.outset{
+    border-style: outset;
+}
+img.right{
+    display: block;
+    text-align: right;
 }
