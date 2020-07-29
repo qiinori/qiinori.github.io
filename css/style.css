@@ -73,10 +73,10 @@ pre{
 .projects{
   margin-left: 5rem;
   padding: 1rem;
-  background-color:#ffcccc;
 }
-.projects h1{
+.projects h1 bottom-line{
     text-align: center;
+    border-bottom-style: dashed;
 }
 
 .projectspreview{
